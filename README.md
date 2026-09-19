@@ -11,3 +11,5 @@ The ledger uses exact integer currency, atomic journal commits, entity balance a
 This is a fictional economic model: appraisal ceilings and daily settlement demand are game rules, and the single 8% capital ratio uses simplified risk weights. The manual explains these assumptions. Settlement nets modeled supplier outflows against outside service payments to the parent; both legs are recorded. Default provisions are consumed on foreclosure or debt forgiveness, avoiding duplicate losses.
 
 Mouse, touch, and keyboard controls: 1 inspect, 2 infrastructure, 3 debt links, R revalue, Space settle, arrow keys move the grid cursor, Enter act, Escape cancel. Optional procedural audio and reduced-motion support are included.
+
+The industrial display uses safety orange for assets and actions, warning yellow for liabilities and debt conduits, and hazard red for fractures and emergencies. Net per-entity asset and liability changes float above their tiles. Selected entities have a two-CSS-pixel orange outline. The main interface uses compact ratios and symbols; full accounting details remain in the ledger and manual.
